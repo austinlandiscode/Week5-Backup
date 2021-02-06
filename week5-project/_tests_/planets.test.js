@@ -32,7 +32,7 @@ describe ('Calculator', () => {
     });
 
     test ('should take an age, convert it to years on specified planet, then convert it to years left to live', () => {
-    const mercuryYears = new Calculator('','','','Mercury');
-    expect(mercuryYears.checkYearsLeft()).toEqual();
+    const human = new Calculator('','','','');
+    expect(human.checkYearsLeft()).toEqual(78);
     });
 });
