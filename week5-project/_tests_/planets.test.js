@@ -14,8 +14,13 @@ describe ('Calculator', () => {
 
   });
 
-    test('should take an age and return years on Venus', () => {
+  test('should take an age and return years on Venus', () => {
     const venus = new Calculator(5, 'Venus');
-    expect(venus.checkYears()).toEqual();
+    expect(venus.checkYears()).toEqual(8);
+    });
+
+  test ('should take an age and return years on Mars', () => {
+    const mars = new Calculator(10, 'Mars');
+    expect(mars.checkYears()).toEqual(5);
     });
 });
