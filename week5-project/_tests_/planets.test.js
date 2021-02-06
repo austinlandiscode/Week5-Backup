@@ -13,4 +13,9 @@ describe ('Calculator', () => {
     expect(mercury.checkYears()).toEqual(20);
 
   });
+
+    test('should take an age and return years on Venus', () => {
+    const venus = new Calculator(5, 'Venus');
+    expect(venus.checkYears()).toEqual();
+    });
 });
