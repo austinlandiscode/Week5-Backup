@@ -1,5 +1,4 @@
-export default function Planets(name,color,daysInYear) {
-  this.name;
-  this.color;
-  this.daysInYear;
+export default function Person(name,age) {
+  this.name = name;
+  this.age = age;
 }

@@ -1,4 +1,4 @@
-import Planets from './planets.js';
+import Person from './planets.js';
 import './css/styles.css';
 import $ from 'jquery';
 import 'bootstrap';
