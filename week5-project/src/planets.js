@@ -1,6 +1,8 @@
 export class Calculator {
-  constructor(age, planet) {
+  constructor(age, sex, continent, planet) {
     this.age = age;
+    this.sex = sex;
+    this.continent = continent;
     this.planet = planet;
   }
 
@@ -18,5 +20,8 @@ export class Calculator {
       let yearsOnJupiter = (Math.floor(this.age / 11.86));
       return yearsOnJupiter;
     }
+  }
+  checkYearsLeft() {
+    
   }
 }
