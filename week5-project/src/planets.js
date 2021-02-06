@@ -14,6 +14,9 @@ export class Calculator {
     } else if (this.planet === 'Mars') {
       let yearsOnMars = (Math.floor(this.age / 1.88));
       return yearsOnMars;
+    } else if (this.planet === 'Jupiter') {
+      let yearsOnJupiter = (Math.floor(this.age / 11.86));
+      return yearsOnJupiter;
     }
   }
 }

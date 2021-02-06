@@ -23,4 +23,9 @@ describe ('Calculator', () => {
     const mars = new Calculator(10, 'Mars');
     expect(mars.checkYears()).toEqual(5);
     });
+
+  test ('should take an age and return years on Jupiter', () => {
+    const jupiter = new Calculator(20, 'Jupiter');
+    expect(jupiter.checkYears()).toEqual(1);
+    });
 });
