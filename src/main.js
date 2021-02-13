@@ -14,4 +14,11 @@ $("#planetVariables").submit(function() {
 
   let ageCalculator = new Calculator(age,sex,continent,planet);
   
-})
+  ageCalculator.CheckYears(this.planetYears);
+  $('#output').text(`You are ${age} on earth, but will be ${this.planetYears} on ${planet}`);
+
+  let yearsCalculator = new Calculator(age,sex,continent,planet);
+
+  yearsCalculator.CheckYearsLeft(this.planetYearsLeft);
+  $('#output2').text(`You are ${age} on earth, and ${this.planetYears} on ${planet}. But you have ${this.planetYearsLeft} on ${planet}`);
+});

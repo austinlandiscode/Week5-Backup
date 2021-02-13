@@ -1,67 +1,69 @@
-export class Calculator {
+export default class Calculator {
   constructor(age, sex, continent, planet) {
     this.age = age;
     this.sex = sex;
     this.continent = continent;
     this.planet = planet;
+    this.planetYears = 0;
+    this.planetYearsLeft = 0;
   }
 
   checkYears() {
     if (this.planet === 'Mercury') {
-      let yearsOnMercury = (Math.floor(this.age / 0.24));
-      return yearsOnMercury;
+      let planetYears = (Math.floor(this.age / 0.24));
+      return planetYears;
     } else if (this.planet === 'Venus') {
-      let yearsOnVenus = (Math.floor(this.age / 0.62));
-      return yearsOnVenus;
+      let planetYears = (Math.floor(this.age / 0.62));
+      return planetYears;
     } else if (this.planet === 'Mars') {
-      let yearsOnMars = (Math.floor(this.age / 1.88));
-      return yearsOnMars;
+      let planetYears = (Math.floor(this.age / 1.88));
+      return planetYears;
     } else if (this.planet === 'Jupiter') {
-      let yearsOnJupiter = (Math.floor(this.age / 11.86));
-      return yearsOnJupiter;
+      let planetYears = (Math.floor(this.age / 11.86));
+      return planetYears;
     }
   }
   
   checkYearsLeft() {
     if (this.sex === 'Male' && this.continent === 'North America') {
-      let northAmericanMale = (77 - this.age);
-      return northAmericanMale;
+      let planetYearsLeft = (77 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'North America') {
-      let northAmericanFemale = (81 - this.age);
-      return northAmericanFemale;
+      let planetYearsLeft = (81 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Male' && this.continent === 'South America') {
-      let southAmericanMale = (72 - this.age);
-      return southAmericanMale;
+      let planetYearsLeft = (72 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'South America') {
-      let southAmericanFemale = (78 - this.age);
-      return southAmericanFemale;
+      let planetYearsLeft = (78 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Male' && this.continent === 'Europe') {
-      let europeanMale = (79 - this.age);
-      return europeanMale;
+      let planetYearsLeft = (79 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'Europe') {
-      let  europeanFemale = (84 - this.age);
-      return europeanFemale;
+      let  planetYearsLeft = (84 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Male' && this.continent === 'Asia') {
-      let asianMale = (76 - this.age);
-      return asianMale;
+      let planetYearsLeft = (76 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'Asia') {
-      let asianFemale = (80 - this.age);
-      return asianFemale;
+      let planetYearsLeft = (80 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Male' && this.continent === 'Africa') {
-      let africanMale = (62 - this.age);
-      return africanMale;
+      let planetYearsLeft = (62 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'Africa') {
-      let africanFemale = (65 - this.age);
-      return africanFemale;
+      let planetYearsLeft = (65 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Male' && this.continent === 'Australia') {
-      let australianMale = (81 - this.age);
-      return australianMale;
+      let planetYearsLeft = (81 - this.age);
+      return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'Australia') {
-      let australianFemale = (85 - this.age);
-      return australianFemale;
+      let planetYearsLeft = (85 - this.age);
+      return planetYearsLeft;
     } else {
-      let human = (78 - this.age);
-      return human;
+      let planetYearsLeft = (78 - this.age);
+      return planetYearsLeft;
     }
   }
 }
