@@ -26,7 +26,7 @@ export default class Calculator {
   
   checkYearsLeft() {
     if (this.sex === 'Male' && this.continent === 'North America') {
-      let planetYearsLeft = (77 - this.age);
+      let planetYearsLeft = (77 - this.age)
       return planetYearsLeft;
     } else if (this.sex === 'Female' && this.continent === 'North America') {
       let planetYearsLeft = (81 - this.age);
