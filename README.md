@@ -1,8 +1,9 @@
 # Planet Age Calculator
 
-#### This 
+## Description
+_This application is designed to provide a user their age on different planets based on their input._d
 
-#### By: Austin Landis
+### By: Austin Landis
 
 ## Technologies Used
 
@@ -16,9 +17,9 @@
 * Jest
 
 
-## Description
+## Detailed Description
 
-This web application is designed to BLANK
+_This web application is designed to take an inputs from the user and use those values to let them know how old they are on different planets, it will also tell them how many years they have to live on those planets. If they have lived past their life expectancy, it will let them know that as well._
 
 ## Specs
 * See '_tests_/planets.test.js'
