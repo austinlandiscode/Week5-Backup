@@ -5,12 +5,16 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
-$("#planetVariables").submit(function() {
-  let age = parseInt($('#userAge').val());
-  let sex = $('#userSex').val();
-  let continent = $('#userContinent').val();
-  let planet = $('#userPlanet').val();
-
+$(document).ready(function() {
+  $("#planetVariables").submit(function() {
+    event.preventDefault();
+    debugger;
+    let age = parseInt($('#userAge').val());
+    let sex = $('#userSex').val();
+    let continent = $('#userContinent').val();
+    let planet = $('#userPlanet').val();
+  });
+});
 
   let ageCalculator = new Calculator(age,sex,continent,planet);
   
@@ -21,4 +25,3 @@ $("#planetVariables").submit(function() {
 
   yearsCalculator.CheckYearsLeft(this.planetYearsLeft);
   $('#output2').text(`You are ${age} on earth, and ${this.planetYears} on ${planet}. But you have ${this.planetYearsLeft} on ${planet}`);
-});

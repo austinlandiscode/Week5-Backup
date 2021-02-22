@@ -1,6 +1,6 @@
-# _{Application Name}_
+# Planet Age Calculator
 
-#### _{Brief description of application}_
+#### This 
 
 #### By: Austin Landis
 
@@ -11,6 +11,9 @@
 * JavaScript
 * JQuery
 * Bootstrap
+* Babel
+* Eslint
+* Jest
 
 
 ## Description
@@ -18,16 +21,27 @@
 This web application is designed to BLANK
 
 ## Specs
-
+* See '_tests_/planets.test.js'
 
 ## Setup/Installation Requirements
+* Click on the green download code button. Click on the clipboard icon.
+* Open your terminal, navigate to the preffered storage location on your desktop.
+* Type git clone and then paste the cloned project.
+* CD into the cloned project.
+* type code . to open the project in your code editor.
+OR
+* Drag cloned project into code editor if your command pallette does not support code .
 
-* Click on the green download code button. Download ZIP.
-* Move the ZIPPED folder to your desktop.
-* Drag folder into a code editor.
-* To view in-browser, copy-path of index.html into your preferred browser.
-* Commands could also be performed in the terminal.
-
+## Npm Initilization
+* Verify package.json has correct npm packages for needs
+* Modify title on line 18 of webpack.config.js
+* Modify title on line 2 of package.json
+* Modify description on line 19 of package.json
+* Modify title on line 2 if package-lock.json
+* Run ```npm init -y```
+* Run ```npm install```
+* Verify install works by running ```npm run test``` and ```npm run build```
+* To open your project in a browser, perform ```npm run start``` in your terminal
 
 ## Known Bugs
 
