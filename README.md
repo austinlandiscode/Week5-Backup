@@ -1,7 +1,7 @@
 # Planet Age Calculator
 
 ## Description
-_This application is designed to provide a user their age on different planets based on their input._d
+_This application is designed to provide a user their age on different planets based on their input._
 
 ### By: Austin Landis
 
